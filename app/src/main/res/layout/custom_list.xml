@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/customImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pem1"/>
+    <TextView
+        android:id="@+id/customTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indah nya kebunku"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"/>
+
+
+    <RatingBar
+        android:id="@+id/rattingbar"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:rating="3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/customImage"/>
+
+    <TextView
+        android:id="@+id/textshre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:textStyle="bold"
+        android:layout_below="@+id/rattingbar"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="23sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEARN MORE"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_toRightOf="@+id/textshre"
+        android:layout_below="@+id/rattingbar"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="23sp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+</RelativeLayout>
